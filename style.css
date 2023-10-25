@@ -15,3 +15,25 @@
 
 }
 
+.lightContainer .box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    height: 50px;
+    background-color: lightblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: aqua;
+}
+
+button:active {
+    box-shadow: none;
+}
+
